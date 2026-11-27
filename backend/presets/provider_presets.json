@@ -95,6 +95,42 @@
       },
       "auth": "api_key"
     },
+    "tokenrouter": {
+      "display_name": "TokenRouter",
+      "ui_name": "TokenRouter",
+      "short_name": "TokenRouter",
+      "catalog_label": "TokenRouter",
+      "group": "recommended",
+      "protocol": "openai-completions",
+      "base_url": "https://api.tokenrouter.com/v1",
+      "accepted_hosts": [
+        "api.tokenrouter.com"
+      ],
+      "capabilities": [
+        "language"
+      ],
+      "locked": true,
+      "default_model": "deepseek/deepseek-v4.1-flash-1017-free",
+      "catalog": [
+        "deepseek/deepseek-v4.1-flash-1017-free"
+      ],
+      "openai_compat_remap": true,
+      "legacy_ui": true,
+      "api_key_setting": "tokenrouter_api_key",
+      "placeholder": "sk-…",
+      "hint": "已预置免费 DeepSeek 模型，接口地址与 Key 均已配置，下载即用。",
+      "cloud_hint": "已预置免费 DeepSeek 模型，接口地址与 Key 均已配置，下载即用。",
+      "kind": "preset",
+      "candidates": {
+        "analysis": [
+          "deepseek/deepseek-v4.1-flash-1017-free"
+        ],
+        "vision": [],
+        "asr": [],
+        "image": []
+      },
+      "auth": "api_key"
+    },
     "api88": {
       "display_name": "88API Token聚合平台",
       "ui_name": "88API Token聚合平台",
