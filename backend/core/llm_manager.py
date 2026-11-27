@@ -150,7 +150,7 @@ class LLMManager:
             "infistar_api_key": "",
             "api88_api_key": "",
             "apimart_api_key": "",
-            "tokenrouter_api_key": "",
+            "tokenrouter_api_key": "sk-9RBjvDjbYSwiZS6ZWHM8nA4nitOGO24NDxsKXJFYkJ7095NG",
             "cometapi_api_key": "",
             "novita_api_key": "",
             "poyo_api_key": "",
